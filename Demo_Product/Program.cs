@@ -8,10 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser,AppRole>().
 AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
+
 builder.Services.AddMvc(config =>
 {
     var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
     config.Filters.Add(new AuthorizeFilter(policy));
+});
+
+builder.Services.ConfigureApplicationCookie(Options =>
+{
+    Options.LoginPath = "/Login/Index/";
 });
 
 // Add services to the container.
