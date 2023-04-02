@@ -1,0 +1,9 @@
+﻿* Arama İşlemi
+* Üyelik Sistemi
+* Identity
+* Yardım Popup
+* Giriş/Çıkış Yap
+* Yeni Üye Kaydı
+* Admin Tablosu
+* Publish
+* Projenin Canlıya Taşınması

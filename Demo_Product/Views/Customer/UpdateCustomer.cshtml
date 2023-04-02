@@ -1,0 +1,20 @@
+﻿@model EntityLayer.Concrete.Customer
+@{
+    ViewData["Title"] = "UpdateCustomer";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+<form method="post">
+    @Html.Label("Müşteri ID:")
+    @Html.TextBoxFor(X=>X.CustomerID ,new{@class="form-control"})
+    <br />
+    @Html.Label("Müşteri Adı:")
+    @Html.TextBoxFor(X=>X.CustomerName, new{@class="form-control"})
+    <br />
+    @Html.Label("Müşteri Şehir:")
+    @Html.TextBoxFor(X=>X.CustomerCity, new{@class="form-control"})
+    <br />
+    @Html.Label("Meslek Şeçiniz");
+    @Html.DropDownListFor(X=>X.JobID ,(List<SelectListItem>)@ViewBag.V,new{@class="form-control"})
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>

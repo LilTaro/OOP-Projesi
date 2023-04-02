@@ -1,0 +1,18 @@
+﻿@model EntityLayer.Concrete.Product
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+<form method="post">
+    @Html.Label("Ürün ID")
+    @Html.TextBoxFor(X=>X.ProductID ,new{@class="form-control"})
+    <br />
+    @Html.Label("Ürün Fiyat")
+    @Html.TextBoxFor(X=>X.ProductPrice, new{@class="form-control"})
+    <br />
+    @Html.Label("Ürün Stok")
+    @Html.TextBoxFor(X=>X.ProductStock, new{@class="form-control"})
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+
