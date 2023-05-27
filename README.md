@@ -1,8 +1,8 @@
 # OOP-Projesi
-**Proje Kampı Linki:** https://www.udemy.com/course/csharp-ile-adim-adim-katmanli-mimari/
-<pre> Proje MVC kullanılarak MSSQL kullanılarak yapılmıştır </pre>
-<pre> N Katmanlı Mimari kullanılarak yapılmıştır. Codefirst kullanılarak yapılmıştır. </pre>
-<pre> Proje ile ilgili Resimler: </pre>
+**Project Camp Link:** https://www.udemy.com/course/csharp-ile-adim-adim-katmanli-mimari/
+<pre> Project created by using .NET MVC and MSSQL.</pre>
+<pre> Project created by using N tier architecture with Code first. </pre>
+<pre> Images About Project: </pre>
 ![login](https://github.com/LilTaro/OOP-Projesi/assets/115897622/25f11dc1-bfb0-4c03-b18e-118edeacadb1)
 ![signup](https://github.com/LilTaro/OOP-Projesi/assets/115897622/382c2a94-484f-4256-a921-23070306946b)
 ![1](https://github.com/LilTaro/OOP-Projesi/assets/115897622/f8e75558-0836-4ad0-b229-9990aa5138b4)
